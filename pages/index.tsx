@@ -20,7 +20,7 @@ const Nav: React.FC<{href: string}> = (props)=>{
 const Title: React.FC = ()=>{
   return <div style={{position: "absolute", left: "50%", transform:"translate(-50%, -50%)", textAlign:"center", top: "calc(50% - 50px)", flexWrap: "wrap", maxWidth: "calc(100vw - 40px)"}}>
     <div style={{ userSelect:"none", transition:"font-size .5s",  fontSize: "min(30vw, min(25vh, 150px))", maxWidth: "100vw" }}>Toodols</div>
-    <div style={{fontSize: "20px"}}>Talentless Game and Web Developer</div>
+    <div style={{fontSize: "20px"}}>I genuinely dont know what the fuck i do and i dont care</div>
     <div style={{ marginTop: 30, display: "flex", justifyContent: "space-evenly"}}>
       <Nav href="#profiles">Profiles</Nav> <Nav href="#about">About</Nav> <Nav href="#projects">Projects</Nav> <Nav href="#misc">Misc</Nav>
     </div>
